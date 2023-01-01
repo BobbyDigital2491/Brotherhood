@@ -1,8 +1,8 @@
 {
-  "name": "tailwind-typescript-starter-nextjs",
+  "name": "brotherhood-academy",
   "version": "1.0.0",
-  "description": "typescript starter with tailwindcss",
-  "author": "kumard3",
+  "description": "Brotherhood Academy",
+  "author": "Bobby Digital",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cyphen12/tailwind-typescript-starter.git"
