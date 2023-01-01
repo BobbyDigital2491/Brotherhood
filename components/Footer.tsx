@@ -10,41 +10,30 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center border-t border-b gap-4 py-6">
             <nav className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 md:gap-6">
               <a
-                href="https://discord.com/invite/vkMctx3PEd"
-                className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                href="/home"
+                className="text-gray-500 hover:text-yellow-500 active:text-indigo-600 transition duration-100"
               >
-                Discord
+                Home
               </a>
               <a
-                href="https://twitter.com/syndicatespanda"
-                className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                href="/about"
+                className="text-gray-500 hover:text-yellow-500 active:text-indigo-600 transition duration-100"
               >
-                Pandamania Twitter
+                About
               </a>
               <a
-                href="https://twitter.com/HMingos"
-                className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                href="/program"
+                className="text-gray-500 hover:text-yellow-500 active:text-indigo-600 transition duration-100"
               >
-                Hashmingo Twitter
+                Program
               </a>
               <a
-                href="https://spatial.io/s/Panda-Syndicate-62aa141728f2990001233c8c?share=2893630512926369723"
-                className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                href="https://www.gofundme.com/"
+                className="text-gray-500 hover:text-yellow-500 active:text-indigo-600 transition duration-100"
               >
-                Spatial
+                Donate
               </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-              >
-                Contact
-              </a>
-               <a
-                href="#"
-                className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-              >
-                Team
-              </a>
+
             </nav>
             <div></div>
           </div>

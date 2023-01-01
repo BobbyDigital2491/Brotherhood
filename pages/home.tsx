@@ -6,15 +6,17 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MarketPlace from "../components/MarketPlace";
 import NavComponent from "../components/NavComponent";
+import Ark from "../components/Ark"
 
 const NftCard = () => {
   return (
     <div className="border-2 min-h-[400px] py-4 max-w-[330px]">
       <div className="relative -right-6 -top-10">
-        <img src="/Rectangle9.png" />
+        
+        <img src="/cc.jpg" width={120} height="120"/>
       </div>
       <div className="px-6 -mt-4">
-        <h1 className="text-2xl">Pandamania</h1>
+        <h1 className="text-2xl">Brotherhood Academy</h1>
         <div className="flex justify-between w-full mb-4 mt-2 px-3">
           <div className="flex items-center  text-xl">
             <svg
@@ -66,23 +68,101 @@ const NftCard = () => {
   );
 };
 
-export default function index() {
+export default function home() {
   return (
     <>
       <div className="relative ">
         <div className="absolute  -z-10 top-[-50rem] -left-[40rem] ">
-          <img src="Group47.svg" className="relative top-[20rem]" />
+          <img src="ellipse18.svg" className="relative top-[20rem]" />
         </div>
       </div>
 
       <NavComponent />
       <Hero />
       
-      <MarketPlace />
+        
+        <img src="/j.png" width={420} height="920" className="center"/>
+      
       <Community />
-      <Discover />
-      <h2 className="text-align: center"><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Winning Bid for Golden Collection: 58,000 HBAR </i></h2>
-      <Footer />
+      <MarketPlace />
+      <img src="/mic.png" width={420} height={920} className="center"/>
+      <h3 className="center">Brotherhood Panel</h3>
+      <Ark />
+          <br/>
+          <img src="lad.png" />
+      <h3 >Sisterhood Panel</h3>
+      <br/><br/><br/><br/>
+      <h2 className="text-5xl sm:text-[80px] font-bold text-yellow-300">
+                Our Partners
+              </h2>
+              <div className="h-56 grid grid-cols-3 gap-4 content-start ...">
+  <div><img src="/chase.png"/></div>
+  <div><img src="/ker.png"/></div>
+  <div><img src="/green.png"/></div>
+  <div><img src="/chick.png"/></div>
+  <div><img src="/goat.png"/></div>
+</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<h2 className="text-5xl sm:text-[80px] font-bold text-yellow-300 align-middle">
+                Testimonials
+              </h2>
+              <br/><br/>
+<div className="text-center">
+  <h2>" I have been a client of The Brotherhood Academy for the past year, 
+    and I am extremely satisfied with the services they have provided. The staff is knowledgeable 
+    and always willing to go above and beyond to help with any issues or concerns I have. 
+    The courses offered are top-notch and have greatly improved my skills and knowledge in my field. 
+    I highly recommend The Brotherhood Academy to anyone looking to advance their career or learn new 
+    skills. They truly are a fantastic organization. "</h2>
+    <br/>
+  <img
+    src="https://images.squarespace-cdn.com/content/v1/53b599ebe4b08a2784696956/1585161216625-SPEZ9Q48H4XWEAN47K1O/professional-headshots-nyc-043.jpg"
+    className="rounded-full w-32 mb-4 mx-auto"
+    alt="Avatar"
+  />
+  <h5 className="text-xl font-medium leading-tight mb-2 text-yellow-300">John G. Williams</h5>
+  <p className="text-gray-500">Founder at Thinkers Academy</p>
+</div>          
+<br/>
+<br/><br/>
+<div className="text-center">
+  <h2>" I have been a student at the Brotherhood Academy for the past year and it has been an 
+    incredible experience. The staff and teachers are all dedicated and caring, and they truly want 
+    to see their students succeed. The curriculum is challenging and well-rounded, and I feel like 
+    I have gained so much knowledge and skills that will benefit me in my future endeavors. 
+    The Brotherhood Academy is more than just a school, it is a community where I have made 
+    lifelong friends and feel supported and encouraged to be my best self. I highly recommend the 
+    Brotherhood Academy to anyone looking for a top-quality education and a positive, welcoming 
+    environment. "</h2>
+    <br/>
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjrk8yALkZm2cirzsc-tzG3zq3KdYsOCzag&usqp=CAU"
+    className="rounded-full w-32 mb-4 mx-auto"
+    alt="Avatar"
+  />
+  <h5 className="text-xl font-medium leading-tight mb-2 text-yellow-300">Tim Carter</h5>
+  <p className="text-gray-500">Former Student at Brotherhood Academy</p>
+  <br/><br/>
+<div className="text-center">
+  <h2>" As a parent, I have seen firsthand the positive impact The Brotherhood Academy has had 
+    on my child. The programs offered at the academy have not only helped to improve my child's 
+    academic performance, but have also instilled important values such as leadership and teamwork. 
+    The staff at The Brotherhood Academy are dedicated and caring, and truly go above and beyond to 
+    ensure the success and well-being of the youth in their care. I am extremely grateful for the 
+    opportunities my child has received through the academy and would highly recommend their 
+    programs to any parent looking to give their child a solid foundation for success. "</h2>
+    <br/>
+  <img
+    src="https://i.pinimg.com/736x/07/4c/36/074c3657009f20fa39f82dd00098bbb1.jpg"
+    className="rounded-full w-32 mb-4 mx-auto"
+    alt="Avatar"
+  />
+  <h5 className="text-xl font-medium leading-tight mb-2 text-yellow-300">Trisha Green</h5>
+  <p className="text-gray-500">C.F.O at XCOM</p>
+</div>
+<Footer />
+</div>
+          
     </>
   );
 }

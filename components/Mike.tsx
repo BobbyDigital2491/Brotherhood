@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Like() {
+export default function Mike() {
   return (
     <div className="min-h-screen sm:my-20 ">
       <div className="flex  w-full flex-wrap xl:flex-nowrap container mx-auto  justify-between  py-[2rem] z-50 ">

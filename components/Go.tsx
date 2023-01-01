@@ -5,17 +5,21 @@ export default function Hero() {
     <div className="min-h-screen sm:my-20 ">
       <div className="flex  w-full flex-wrap xl:flex-nowrap container mx-auto  justify-between  py-[2rem] z-50 ">
         <div className="flex sm:mt-8 flex-col  text-left px-2   ">
-          <img src="bird.png" />
-          <h1 className="text-5xl sm:text-[80px]">What is $MNGO Token?</h1>
+          
+          <h1 className="text-5xl sm:text-[80px] font-bold text-yellow-300">Our Program</h1>
+          <br/>
+          <img src="cc.jpg" />
+          <br/>
           <br/>
           <p className="max-w-lg text-xl ">
-           $MNGO token is a fungible token built on Hedera with 50,000,000 supply. 
-            It is the token that represents the Pandamania Collections (Hashmingos, Lady Mingos, and Panda Syndicates) and used within its community. 
-            This  utility token offers different usages and activities that keeps the community engaged while rewarding them for being a supporter. 
-            Mingo’s World or Pandamania ecosystem is built around the usage of MNGO and creating more and more ways to help maintain its importance 
-            and usage throughout the entire Hedera, including making important partnerships to take the token to the next level. {" "}
+          The Brotherhood Academy’s goal is to expose our young Kings to various aspects of 
+          entrepreneurship, innovation, and business, while giving them the opportunity to create 
+          for themselves and generate an income while in school. We’ve created 6 departments that 
+          align with the success and overall growth of a stable community and economy. Those 
+          departments being Agricultural Science, Financial Literacy, S.T.E.A.M, Media Film & 
+          Production, Real Estate & Development, and Auto Sales and Logistics . {" "}
           </p>
-          <div className="flex  items-center sm:justify-center mt-10 sm:m-0 lg:justify-start ">
+          <div className="flex items-center sm:justify-center mt-10 sm:m-0 lg:justify-start ">
             <>
               
             </>

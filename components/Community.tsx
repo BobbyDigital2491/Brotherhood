@@ -4,30 +4,27 @@ const data = [
   {
     title: "01/",
     description:
-      "Stay consistent and never get uncomfortable. Build when everyone is asleep. Never be afraid to adapt to change when needed.",
+      "Relentlessness: RELENTLESSNESS PURSUES THE GOAL WITHOUT ANY OPTION OF QUITTING, EVEN IF OTHERS.",
   },
   {
     title: "02/",
     description:
-      "Full transparancy and community engagement when developing and deploying new projects. ",
+      "Solidarity: SOLIDARITY FOCUSES ON FOUNDATION, STURDINESS, AND CONCRETE GROUNDWORK FOR YOURSELF AND YOUR IDEAS.. ",
   },
   {
     title: "03/",
     description:
-      "Sacrifice when needed in order to bring constant value to holders. Constantly innovating for the greater good of the project. ",
+      "Respect: AFFECTING YOUR ESTEEM AND CONFIDENCE, RESPECT PLAYS A ROLE IN YOUR EVERYDAY LIFE THROUGH HONOR AND DIGNITY. ",
   },
   {
     title: "04/",
     description:
-      "Make a difference in the world and allow the project community to experience and witness what their support can do in and outside of web 3. ",
+      "Integrity: AFFECTING YOUR ESTEEM AND CONFIDENCE, RESPECT PLAYS A ROLE IN YOUR EVERYDAY LIFE THROUGH HONOR AND DIGNITY. ",
   },{
     title: "05/",
     description:
-      "Be supportive. Support those who support you and be attentive of even the little things. Sometime just a kind word can change someone's day. Create a family. ",
-  },{
-    title: "06/",
-    description:
-      "Don't be selfish. Never fall in a path of greed, give me, give me, give me! Rather, be willing to give to those who believe in the project endless. They're the foundation, not you.",
+      "Loyalty: AFFECTING YOUR ESTEEM AND CONFIDENCE, RESPECT PLAYS A ROLE IN YOUR EVERYDAY LIFE THROUGH HONOR AND DIGNITY. ",
+  
   },
 ];
 
@@ -38,14 +35,14 @@ export default function Community() {
         <img src="Ellipse18.svg" className="relative " />
       </div>
       <div className="flex flex-col container mx-auto">
-        <h1 className="text-5xl sm:text-[80px] flex flex-col align-middle ">
-          Community <span>Engagement</span>{" "}
+        <h1 className="text-5xl sm:text-[80px] flex flex-col align-middle text-yellow-300">
+          Our <span>Values</span>{" "}
         </h1>
         <div className="flex flex-wrap   justify-center  items-center">
           {data.map((n, index) => {
             return (
               <div key={index} className="flex flex-col max-w-sm p-5">
-                <h1 className="text-[60px] font-mono">{n.title}</h1>
+                <h1 className="text-[60px] font-mono text-yellow-300">{n.title}</h1>
                 <p>{n.description}</p>
               </div>
             );

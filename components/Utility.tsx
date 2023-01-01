@@ -4,33 +4,19 @@ const data = [
   {
     title: "01/",
     description:
-      "Auction and raffles for NFTs and “other things” using $MNGO only being held in our discord.",
+      "The power of walking and talking with Confidence.",
   },
   {
     title: "02/",
     description:
-      "$MNGO Mystery Wheel is being reconstructed into $MNGO Bust or Miss. This will allow holders to pay XXXX amount $MNGO for a chance to win NFT worth 0-3000h. ",
+      "Decision Making. ",
   },
   {
     title: "03/",
     description:
-      "$MNGO Marketplace is a marketplace within discord for holders that sales them NFTs at a 10-20% discount using $MNGO. ",
+      "Goal setting and Goal getting. ",
   },
-  {
-    title: "04/",
-    description:
-      "Saucer Swap listing. $MNGO will be listed onto Saucer Swap defi platform to allow our holders to trade $MNGO freely. ",
-  },
-  {
-    title: "05/",
-    description:
-      "$MNGO will be used in mints and claiming other NFTs, including claiming a percentage of Mutant Pandas for $MNGO. ",
-  },
-  {
-    title: "06/",
-    description:
-      "$MNGO token games. We have partnered with Creamies NFT team to bring token games to $MNGO. ",
-  },
+  
 ];
 
 export default function Community() {
@@ -40,20 +26,26 @@ export default function Community() {
         <img src="Ellipse18.svg" className="relative " />
       </div>
       <div className="flex flex-col container mx-auto">
-        <h1 className="text-5xl sm:text-[80px] flex flex-col align-middle ">
-          $MNGO <span> Hodlers Utilities</span>{" "}
+        <h1 className="text-5xl sm:text-[80px] flex flex-col align-middle center text-yellow-300">
+          List of <span> Programs</span>{" "}
         </h1>
-        <div className="flex flex-wrap   justify-center  items-center">
-          {data.map((n, index) => {
-            return (
-              <div key={index} className="flex flex-col max-w-sm p-5">
-                <h1 className="text-[60px] font-mono">{n.title}</h1>
-                <p>{n.description}</p>
-              </div>
-            );
-          })}
+        <br/>
+        <li className="center">- The power of walking and talking with Confidence</li>
+        <li className="center">- Decision Making</li>
+        <li className="center">- Goal setting and Goal getting</li>
+        <li className="center">- Purpose drives Outcome</li>
+        <li className="center">- The power of words</li>
+        <li className="center">- Confidence, Self- Esteem and Self- Image</li>
+        <li className="center">- The power of Dignity and Pride</li>
+        <li className="center">- My vision keeps ME sane</li>
+        <li className="center">- The Power of Positivity and Change</li>
+        <li className="center">- Stick-to-itiveness and resilience</li>
+        <li className="center">- The rule of 72</li>
+        <li className="center">- How to invest like the Banks do</li>
+        
+          
         </div>
       </div>
-    </div>
+   
   );
 }
